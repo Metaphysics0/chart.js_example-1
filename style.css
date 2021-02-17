@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  padding: 3rem;
+  background: linear-gradient(117deg, rgb(70, 217, 233) 0%, rgb(50, 214, 247));
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+nav h4 {
+  font-size: 2rem;
+}
+
+nav button {
+  padding: 0.5rem;
+  border-radius: 100px;
+  outline: none;
+  border: 1px solid #000;
+  border: none;
+  text-transform: uppercase;
+  background: rgba(0, 255, 166, 0.79);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.chart-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.chart-wrapper h3 {
+  font-size: 4rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  margin-bottom: 2rem;
+}
+
+.chart-wrapper canvas {
+  background: white;
+  max-width: 60rem;
+  max-height: 60rem;
+  height: auto;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07),
+    0 32px 64px rgba(0, 0, 0, 0.07);
+}
+
+.chart-wrapper p {
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
